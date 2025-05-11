@@ -1,0 +1,31 @@
+# .gitignore fájl generálása a projekt gyökerébe
+
+gitignore_content = """\
+# Node modules
+node_modules/
+npm-debug.log
+
+# Env files
+.env
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+"""
+
+# Mentés

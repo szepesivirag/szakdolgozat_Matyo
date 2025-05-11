@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+// Hero szakasz (főoldal kezdőblokkjához)
+.hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+// Általános gomb stílus
+.btn {
+    border-radius: 0;
+    font-weight: bold;
+}
+
+// Lábléc
+footer {
+    background-color: #eee;
+    padding: 20px 0;
+    text-align: center;
+}
+
+// Képgaléria képek
+.gallery-img {
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
